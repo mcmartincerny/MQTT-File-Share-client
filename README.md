@@ -36,7 +36,7 @@ For example I have cat.png in folder C:\photos\cats If I want to send this file,
 8. file will be send to the server and if the file isn't bigger than maximum broker size limit, the server will send the file to
 clients who waiting on the same topic.
 
-#issues:
+# issues:
 1. File was send from client to server, but not received by client. Reason: You are not on the same server and topic,
 or you sent bigger file than the server can hadle. Try sending .txt file with one line of text. If you will receive this small file, but not a larger one,
 the server settings limits the maximal size. I recommand you to use your own server.
